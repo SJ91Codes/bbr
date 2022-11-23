@@ -1,0 +1,102 @@
+@font-face {
+    font-family: title;
+    src: url(/assets/Kingthings\ Xander.ttf);
+}
+body{
+    margin:0;
+    background: #F2A900 ;
+}
+.bg img{
+    position:absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+}
+.title{
+    margin-top: 100px;
+    font-family: title;
+    font-size: 40px;
+    min-width: 370px;
+    max-height:50;
+}
+.options{
+    margin-top: 100px;
+    display:flex;
+    gap: 50px;
+}
+
+.content{
+    margin:none;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 960px;
+    
+}
+
+.logo img{
+    margin-top: 15px;
+    width:650px;
+    height:300px;
+    box-shadow: 0px 0px 10px 2px ;
+}
+
+.button-19 {
+    appearance: button;
+    background-color: #1899D6;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: din-round,sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 13px 16px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 100%;
+  }
+  
+  .button-19:after {
+    background-clip: padding-box;
+    background-color: #1CB0F6;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    bottom: -4px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+  }
+  
+  .button-19:main,
+  .button-19:focus {
+    user-select: auto;
+  }
+  
+  .button-19:hover:not(:disabled) {
+    filter: brightness(1.1);
+    -webkit-filter: brightness(1.1);
+  }
+  
+  .button-19:disabled {
+    cursor: auto;
+  }
