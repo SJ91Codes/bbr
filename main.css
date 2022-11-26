@@ -1,0 +1,81 @@
+@font-face {
+    font-family: title;
+    src: url(/used/Kingthings\ Xander.ttf);
+}
+
+@font-face {
+    font-family: buttons;
+    src: url(/used/dum1.ttf);
+}
+
+body{
+    margin:0;
+}
+button{
+    margin-top: 40px;
+    margin-left: 30px;
+    background-color:#F2A900 ;
+    border-radius: 7px;
+    width: 200px;
+    height:100px;
+    font-family:buttons;
+    font-size: 40px;
+    box-shadow: 0px 0px 7px 2px ;
+}
+
+button:hover{
+    background-color: black;
+    color: #F2A900;
+}
+
+.banner-text{
+    font-family: title;
+    font-size: 40px;
+}
+
+.banner{
+    background-image: url("used/poss2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 400px;
+    height: 280px;
+}
+
+.nav-bar{
+    margin-top:10px;
+    width:100vw;
+    display:flex;
+    justify-content: space-around;
+}
+
+.nav-bar div{
+    font-family: buttons;
+    font-size: 20px;
+    padding-top: 10px;;
+    border: black solid 1px;
+    border-radius: 7px;
+    width: 200px;
+    min-width:100px;
+    min-height: 30px;
+    background: #F2A900;
+    text-align: center;
+    box-shadow: 0px 0px 7px 2px ;
+}
+
+.nav-bar div:hover{
+    cursor:pointer;
+    color: #F2A900;
+    background-color: black;
+}
+
+.head{
+    margin-top: 15px;
+    font-family: title;
+    font-weight: bold;
+    font-size: 30px;
+    text-align:center;
+}
+
+.body{
+    margin-left: 100px;
+    margin-right: 100px;
+}
